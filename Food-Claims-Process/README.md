@@ -77,7 +77,7 @@ This is the data visualization to demonstrate the relationship between Time to C
 
 Fortaleza, Recife and Natal's Average Time to Close a Claim are lower when removing outliers. As shown:
 
-![dist_time_across_locations_no_outliers](https://user-images.githubusercontent.com/56371747/200199292-4f03e914-a95e-43b2-a7c7-697204cb63ac.png)
+![dist_time_across_locations_no_outliers](https://user-images.githubusercontent.com/56371747/200210601-b56b5c00-0e3c-4a01-8723-c7d8d733609b.png)
 
 But if we decided to only comparing the average Time to Close a Claim between Sao Luis and Natal I can confirm that the average Time to Close a Claim is 83% more in Sao Luis in comparison with Natal. This could be due to Sao Luis having a largest number of Claims per Location.
 
