@@ -79,9 +79,11 @@ Fortaleza, Recife and Natal's Average Time to Close a Claim are lower when remov
 
 ![dist_time_across_locations_no_outliers](https://user-images.githubusercontent.com/56371747/200210601-b56b5c00-0e3c-4a01-8723-c7d8d733609b.png)
 
-But if we decided to only comparing the average Time to Close a Claim between Sao Luis and Natal I can confirm that the average Time to Close a Claim is 83% more in Sao Luis in comparison with Natal. This could be due to Sao Luis having a largest number of Claims per Location.
+As we observe, after removing outliers the averages of Time to Close in Recife, Fortaleza and Natal get even lower than the average of Time to Close in Sao Luis. Thus, the most appropiate comparison would be without outliers
 
-![df_avg_time_diff](https://user-images.githubusercontent.com/56371747/200199299-556d1211-5897-4ea5-a890-cd1e055d26ef.png)
+Sao Luis the highest number of Claims, 52%  more claims with respect to Natal, which has the lowest number of Claims. Besides, the average Time to Close a Claim is 134% more in SAO LUIS in comparison with NATAL. This could be due to SAO LUIS having a larger Interquartile Range and a larger Whisker in comparison with the other Locations and without considering the outliers in Fortaleza, Recife and Natal.
+
+![df_avg_time_diff_no_outliers](https://user-images.githubusercontent.com/56371747/200220049-1ab1a0a0-1683-452a-bd9e-2619bc9186f4.png)
 
 
 
@@ -89,11 +91,11 @@ But if we decided to only comparing the average Time to Close a Claim between Sa
 
 - Sao Luis has the highest number of Claims (29), and the highest Average Time to Close too (1063 days).
 
-- Natal has the lowest number of Claims (21) and also the lowest Average Time to Close (581 days).
+- Natal has the lowest number of Claims (19) and also the lowest Average Time to Close (456 days).
 
-- At Sao Luis, Claims take 83% of more days to close in comparison with Natal, which has the lowest days to close a Claim. Furthermore, Sao Luis has 38% of more claims with respect to Natal.
+- At Sao Luis, Claims take 134% of more days to close in comparison with Natal, which has the lowest days to close a Claim. Furthermore, Sao Luis has 52% of more claims with respect to Natal.
 
-- The Fortaleza, Recife and Natal's averages Time to Close a Claim are affected by its own outliers, in another way the average of the days to close a Claim might be lower in these three locations.
+
 
 
 
