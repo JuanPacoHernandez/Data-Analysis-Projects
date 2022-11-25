@@ -99,14 +99,14 @@ Treating Customers and Non-Customers having Chronic disease, have a very similar
 
 ## Conclusions
 
-# Differences in travel habits between customers and non-customers:
+### Differences in travel habits between customers and non-customers:
 
 - Even though 36% of the travelers are customers, 34% of those customers are frequent flyers versus only 14% of non-customers are frequent flyers.
 
 - Talking about if travelers have ever traveled abroad, it have been found that 42% of the customers have traveled abroad once time, meanwhile just 6% of non-customers have ever traveled abroad.
 
 
-# What is the typical profile of customers and non-customers?
+### Typical profile of customers and non-customers
 
 |Customers                                               | Non-Customers                                                          |
 |--------------------------------------------------------|------------------------------------------------------------------------|
