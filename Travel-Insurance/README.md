@@ -110,26 +110,25 @@ Treating Customers and Non-Customers having Chronic disease, have a very similar
 
 |Customers                                               | Non-Customers                                                          |
 |--------------------------------------------------------|------------------------------------------------------------------------|
-|36% of Travelers are Customers (710 Travelers).         |64% of Travelers are Customers (1277 Travelers).                        |
-|34% are frequent flyers.                                |14% are frequent flyers.                                                |
-|42% have traveled abroad.                               |Just 6% have ever traveled abroad.                                      |
+|36% of Travelers are Customers (710 Travelers).         |64% of Travelers are Non-Customers (1277 Travelers).                    |
+|34% are Frequent flyers.                                |14% are Frequent flyers.                                                |
+|42% have Traveled abroad.                               |Just 6% have ever Traveled abroad.                                      |
 |Average age are around 30 years old.                    |Average age are around 30 years old.                                    |
 |80% of customers work in Private Sector/Self Employed.  |66% of Non-Customers work in Private Sector/Self Employed.              |
 |86% of Customers are Graduated.                         |85% of Non-Customers are Graduated.                                     |
-|Mean Annual income is 1.13 million dollars.             |Mean Annual Income of 0.82 million dollars.                             |
-|            This represent a difference of 0.31 million dollars (37.8% more non-customer average annual income).                 |
+|Mean Annual income is 1.13 million dollars. (37.8% more non-customer average annual income)            |Mean Annual Income of 0.82 million dollars.                             |
 |Average Family Members is 4 members.                    |Average Family Members is 4 members.                                    |
 |71% of Customers have no chronic disease.               |73% of Non-Customers have no chronic disease.                           |
 
 
 ## Recommendations
 
-There is a negative highly correlated relationship between the Annual Income (independent variable) and the average Age (dependent variable), thus the recommendation is to offer Travel Insurance to potential customers who follow the trendline above. The probability of Travel Insurance acceptance would increase if these potential customers follow the profiles described the past slide.
+There is a negative highly correlated relationship (left side) between the Annual Income (independent variable) and the Average Age (dependent variable), thus the recommendation is to offer Travel Insurance to potential customers who follow the trendline above. The probability of Travel Insurance acceptance would increase if these potential customers follow the profiles described the past slide. In the right side I found that there is no relationship between de Annal income and the Average Age for Non-Customers.
 
 ![age_vs_annual](https://user-images.githubusercontent.com/56371747/203897408-ef45e89b-2902-4a99-8b1d-99a644b9e9b3.png)
 
 
-In another hand, has been found a negative highly correlated relationship between Annual income and the quantity of Non-Customers. This means that Non-Customers with lowest Annual incomes found expensive the plans or cannot pay the prices of Travel insurance. The recommendation is to offer basic Travel insurance for those who have the lowest Annual income, and the points described in the Customer profile.
+In another hand, has been found a negative highly correlated relationship (right side) between Annual income and the quantity of Non-Customers. This means that Non-Customers with lowest Annual incomes found expensive the plans or cannot pay the prices of Travel insurance. The recommendation is to offer basic Travel insurance for those who have the lowest Annual income, and the points described in the Customer profile. In the left side we see that there is no relationship between the Quantity of Customers and their Annual income.
 
 ![qtynoncustomers_vs_income](https://user-images.githubusercontent.com/56371747/203897414-92b1ea22-6b99-4460-8bf7-a7fa1cce6fd9.png)
 
