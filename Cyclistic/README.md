@@ -29,16 +29,16 @@ The data source provides discrete, structured and second-hand data because has b
 
 The data model is a single fact table, without including dimension tables since at the moment it is a table with Id, start and end times of routes, latitudes and longitudes of the start and end of the route.
 
-**ROCCC**
+### Data ROCCC Schema
 
 **R**ELIABLE – NO, are data with at least 15% of records with null data in the categorical headings of start_station_name and end_station_name. However, the times of these records have been considered since for the purpose of obtaining the descriptive statistics of the use of bicycles, categorical items are not necessary.
 
 **O**RIGINAL – The data is NOT original or first hand, it has been compiled by Motivate International Inc..
 
-**C**OMPREHENSIVE - The data is limited enough for the business task, so it is NOT comprehensive, we could add data such as costs and user membership limitations. It would be possible to expand the search and inform LiLy Moreno. Desirable characteristics of the data:
+**C**OMPREHENSIVE - The data is limited enough for the business task, so it is NOT comprehensive, we could add data such as costs and user membership limitations. It would be possible to expand the search and inform to the marketing director of Cyclistic. Desirable characteristics of the data:
 
     • membership prices,
-    • verify if the in-ground bikes are used exclusively by occasional cyclists or because the data for annual members is at zero, the cost of the annual membership may not include the use of in-tub bikes.
+    • verify if the docked bikes are used exclusively by occasional cyclists or because the data for annual members is at zero, the cost of the annual membership may not include the use of in-tub bikes.
 
 **C**URRENT – YES, the data is updated to September 2022, current month.
 
@@ -103,13 +103,13 @@ The months of greatest use are concentrated in summer (June – September) for b
 
 
 
-The most frequently Start Station used by Casual cyclists is Street Dr & Grand Ave, while Members use most frequently Wells St & Concord Ln.
+The top five Start Stations for both memeberships are shown, being the most frequently Start Station used by Casual cyclists is Street Dr & Grand Ave, while Members use most frequently Wells St & Concord Ln.
 
 ![Captura de pantalla (249)](https://user-images.githubusercontent.com/56371747/204403001-098e6371-7e4c-41f4-842b-7f82dc794bcc.png)
 
 
 
-The most End Station used for Casual cyclists is Street Dr & Grand Ave, for Member cyclists the Wells St & Concord Ln is most used End Station.
+The top five End Stations for both memberships are the next, the most End Station used for Casual cyclists is Street Dr & Grand Ave, for Member cyclists the Wells St & Concord Ln is most used End Station.
 
 ![Captura de pantalla (248)](https://user-images.githubusercontent.com/56371747/204403442-66d68afa-9587-46e9-8b8c-46be7272faa7.png)
 
@@ -119,12 +119,12 @@ The most End Station used for Casual cyclists is Street Dr & Grand Ave, for Memb
 
 The Casual cyclists have a weekend user profile, using the bicycle for longer distances and their favorite bicycle is the electric one. Maybe this Casual cyclists live far away from the Stations and have not need to used on weekdays, only use the service when they go to Downtown, it's needed more info about the profile of users like their professions, gender, distance between Bike Stations and their home or job. 
 
-Nevertheless, having the presented information the recommendation is to offer discounts or promos to new Members who use Electric bikes and riding more than 2.6 mi per day, this restrictions are already accomplished by Casual cyclists.
+Nevertheless, having the presented information the **recommendation** is to offer discounts or promos to new Members who use Electric bikes and riding more than 2.6 mi per day, this restrictions are already accomplished by Casual cyclists.
 
 
 ### 3. How can Cyclistic use digital media to influence casual cyclists to become in members?
 
-As Casual cyclists use frequently Electric bikes, the company could adapt the bike to share battery charge with their smartphones, also create an app that connect with Social Networks to share their track, location, accomplishment of challenges
+The **recommendation** is as Casual cyclists use frequently Electric bikes, the company could adapt the bike to share its battery with casual the cyclists smartphones, also could create an app that connect with Social Networks to share their track, location, accomplishment of challenges
 
 
 
